@@ -1,0 +1,48 @@
+.imageCarousel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+}
+
+.images {
+    height: calc(100vh - 40px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: sticky;
+}
+
+.images .left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5%;
+    height: 100%;
+    color: white;
+    padding-top: 38rem;
+}
+
+.images .right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    width: 5%;
+    height: 100%;
+    color: white;
+    padding-top: 38rem;
+    margin-right: -1rem;
+}
+
+.backArrow {
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.forwardArrow {
+    margin-left: 1rem;
+}
